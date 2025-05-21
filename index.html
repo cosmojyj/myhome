@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대학생 홈페이지</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>안녕하세요! 대학생 홍길동입니다.</h1>
+        <p>컴퓨터공학과 3학년, 다양한 프로젝트와 활동을 경험하고 있습니다.</p>
+    </header>
+    <section id="about">
+        <h2>자기소개</h2>
+        <p>저는 새로운 기술을 배우는 것을 좋아하고, 팀 프로젝트와 개발에 열정을 가지고 있습니다.</p>
+    </section>
+    <section id="board">
+        <h2>게시판</h2>
+        <form id="postForm">
+            <input type="text" id="name" placeholder="이름" required>
+            <input type="text" id="message" placeholder="메시지" required>
+            <button type="submit">작성</button>
+        </form>
+        <ul id="postList"></ul>
+    </section>
+    <footer>
+        <p>연락처: honggildong@email.com</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
